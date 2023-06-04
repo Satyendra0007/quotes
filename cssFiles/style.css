@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bree+Serif&family=Edu+TAS+Beginner&family=Edu+VIC+WA+NT+Beginner&family=Josefin+Sans&family=Patrick+Hand&display=swap');
+
+/* .image_cantainer {
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/32/08/funny-food-story-banner-vector-11763208.jpg");
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+.banner{
+    height: 35vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #00ff0438;
+}
+.banner h1{
+    font-size: 2.5rem;
+    padding: 2rem;
+    border: 1px solid;
+    border-color: red blue green;
+    border-radius: 20px;
+    color: #dc148e;
+    font-family: 'Archivo', sans-serif;
+}
+.qoutes_cantainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+.quotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f5b3b359;
+    border-radius: 10px;
+    width: 23vw;
+    height: 20vh;
+
+}
+.quotes p{
+    padding: 2rem;
+    text-align: justify;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    line-height: 1.6rem;
+    color: #0d2085;
+}

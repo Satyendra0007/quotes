@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cantainer{
+    background-image: url("https://global-uploads.webflow.com/5f6cc9cd16d59d990c8fca33/6261d05d1e42aa30e400c9b2_earth-day-quotes-instagram.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* .explore{
+    padding: 0.8rem 1rem;
+    background: wheat;
+    border-radius: 15px;
+    color: #fb0303;
+    border: 2px solid;
+    border-color: red blue green blueviolet;
+} */
+.contact h1{
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Patrick Hand', cursive;
+}
+.contact_info{
+    display: flex;
+    justify-content: center;
+}
+.contact_items{
+    margin: 0  4rem;
+
+}
+.logo  img{
+    height: 175px;
+    width: 175px;
+}
+.info{
+    font-size: 1rem;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 15px;
+    border-color: red green blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+}
