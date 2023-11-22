@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bree+Serif&family=Edu+TAS+Beginner&family=Josefin+Sans&family=Patrick+Hand&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
     padding: 0;
     margin: 0;
 }
-.nav_container{
+
+.nav_container {
     background-color: rgb(239, 120, 203);
     height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.webname{
+
+.webname {
     margin-right: 2rem;
 }
-#Q{
+
+#Q {
     color: #00ff1c;
     font-size: 2rem;
     font-family: 'Archivo', sans-serif;
@@ -28,34 +33,40 @@
     border-radius: 10px;
     margin-right: 3px;
 }
-.uotes{
+
+.uotes {
     color: rgb(0, 52, 255);
     font-size: 20px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Poppins', sans-serif;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     border-left: 2px solid blue;
 
 }
-.navbar ul li{
+
+.navbar ul li {
     list-style: none;
     padding: 0.3rem 1.5rem;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Poppins', sans-serif;
 }
-.footer{
+
+.footer {
     height: 8vh;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.copyright p{
+
+.copyright p {
     text-align: center;
     color: white;
     font-size: 16px;
